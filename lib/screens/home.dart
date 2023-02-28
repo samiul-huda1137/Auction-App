@@ -33,7 +33,7 @@ class _HomePageState extends State<HomePage> {
           children: [
             ListTile(
               title: Text(
-                'Hey Edward',
+                'Hey HuDuck',
                 style: TextStyle(
                     fontSize: 30,
                     color: Colors.black,

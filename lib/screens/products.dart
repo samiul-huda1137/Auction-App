@@ -63,7 +63,7 @@ class _ProductsState extends State<Products> {
                       boxShadow: [BoxShadow(color: Colors.black)],
                     ),
                     child: const Icon(
-                      Icons.person,
+                      Icons.person_rounded,
                     ),
                   ),
                 ),

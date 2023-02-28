@@ -21,6 +21,6 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
         title: 'Auction App',
         debugShowCheckedModeBanner: false,
-        home: const Profile());
+        home: const HomePage());
   }
 }

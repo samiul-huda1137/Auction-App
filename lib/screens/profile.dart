@@ -57,9 +57,7 @@ class _ProfileState extends State<Profile> {
                       color: Colors.white,
                       boxShadow: [BoxShadow(color: Colors.black)],
                     ),
-                    child: const Icon(
-                      Icons.home,
-                    ),
+                    child: const Icon(Icons.home_mini_rounded),
                   ),
                 ),
               ],
