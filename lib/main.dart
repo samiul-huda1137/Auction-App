@@ -1,5 +1,7 @@
 import 'package:auction_app/Firebase/signup.dart';
 import 'package:auction_app/screens/home.dart';
+import 'package:auction_app/screens/products.dart';
+import 'package:auction_app/screens/profile.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 
@@ -19,6 +21,6 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
         title: 'Auction App',
         debugShowCheckedModeBanner: false,
-        home: const HomePage());
+        home: const Profile());
   }
 }
