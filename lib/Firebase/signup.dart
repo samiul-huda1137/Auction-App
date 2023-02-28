@@ -1,3 +1,4 @@
+import 'package:auction_app/Firebase/database.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
@@ -37,7 +38,16 @@ class _SignUpState extends State<SignUp> {
                 hintText: 'Password',
                 border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(10.0))),
-          )
+          ),
+          SizedBox(
+            height: 20,
+          ),
+          ElevatedButton(
+              onPressed: () {
+                MyDB db = MyDB();
+                db.signup(_emailController, _passwordController);
+              },
+              child: Text('Sign Up'))
         ],
       ),
     );
